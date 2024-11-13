@@ -1,0 +1,16 @@
+annotations:
+  kubeblocks.io/clusterVersions: 14.7.2,12.14.1
+  kubeblocks.io/multiCV: "true"
+apiVersion: v2
+appVersion: 14.7.2
+description: A PostgreSQL (with Patroni HA) cluster definition Helm chart for Kubernetes
+home: https://kubeblocks.io/
+icon: https://kubeblocks.io/img/logo.png
+maintainers:
+- name: ApeCloud
+  url: https://github.com/apecloud/kubeblocks/
+name: postgresql
+sources:
+- https://github.com/apecloud/kubeblocks/
+type: application
+version: 0.7.1

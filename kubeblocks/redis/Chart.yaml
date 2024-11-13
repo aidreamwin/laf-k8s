@@ -1,0 +1,16 @@
+apiVersion: v2
+appVersion: 7.0.6
+description: A Redis cluster definition Helm chart for Kubernetes
+home: https://redis.io/
+icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+keywords:
+- redis
+- database
+- nosql
+- replication
+maintainers:
+- name: ApeCloud
+  url: https://github.com/apecloud/kubeblocks/deploy
+name: redis
+type: application
+version: 0.7.1

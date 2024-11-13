@@ -1,0 +1,1 @@
+HELM_OPTS="--set controller.hostNetwork=true --set controller.kind=DaemonSet --set controller.service.enabled=false" ./entrypoint.sh
